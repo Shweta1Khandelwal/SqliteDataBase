@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="First">First Name</string>
+    <string name="Last">Last Name</string>
+    <string name="Address">Address</string>
+    <string name="City">City</string>
+    <string name="Phone">Phone No.</string>
+    <string name="Email">Email</string>
+    <string name="Create">Create Account</string>
+    <string name="cancel">Cancel</string>
+    <string name="Reg">REGSITER</string>
+    <string name="sample">SAMPLE TEXT</string>
+    <string name="log">LOG IN</string>
+    <string name="Name">Name</string>
+    <string name="ps">Password</string>
+    <string name="rem">Remember me</string>
+    <string name="forgot">Forgot Your password</string>
+    <string name="next">Next</string>
+    <string name="signup">SIGN UP</string>
+    <string name="submit">Submit</string>
+    <string name="DOB">DOB</string>
+</resources>

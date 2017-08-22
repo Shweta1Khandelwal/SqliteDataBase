@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.shweta.test.FINAL"
+    android:background="@color/finalayout">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/user200"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:id="@+id/circularImage"
+        />
+<android.support.design.widget.FloatingActionButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/edit30"
+    android:layout_below="@+id/circularImage"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="-20dp"
+    android:id="@+id/FAB"
+    app:fabSize="mini"/>
+    <!--android:backgroundTint="@color/fabtint"-->
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:drawableEnd="@drawable/edit30black"
+    android:layout_below="@+id/FAB"
+    android:layout_marginTop="@dimen/activity_horizontal_margin"
+    android:id="@+id/firstname_final"
+    />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstname_final"
+        android:textSize="20sp"
+        android:id="@+id/lastname_final"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lastname_final"
+        android:textSize="20sp"
+        android:id="@+id/dob_final"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dob_final"
+        android:textSize="20sp"
+        android:id="@+id/pass_final"
+        />
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="SAVE"
+    android:layout_below="@+id/pass_final"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/button_save"
+    />
+
+</RelativeLayout>

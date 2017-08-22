@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@color/layout"
+    tools:context="com.example.shweta.test.MainActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Signup"
+                android:id="@+id/create"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+              android:textColor="@color/text"
+android:background="@color/create"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Login"
+                android:id="@+id/login"
+                android:layout_below="@id/create"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:textColor="@color/text"
+                android:background="@color/cancel"
+                />
+                   </RelativeLayout>
+        </RelativeLayout>
+
